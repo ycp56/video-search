@@ -142,7 +142,7 @@ if vno == 0:
 import subprocess
 
 video_path = f'file:///Users/yuchenpeng/Downloads/Videos/video{vno}.mp4'
-frame_number = fno
+frame_number = fno - 1
 
 java_command = [
     "java",
